@@ -8,3 +8,6 @@ bp = Blueprint("home", __name__)
 @login_required
 def home_render():
     return render_template("home.html")
+
+
+# belezinha
